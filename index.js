@@ -21,6 +21,7 @@ function submitAndShow(){
         event.preventDefault();
         let userInput = $('#shopping-list-entry').val();
         postItem(userInput);
+        $('#shopping-list-entry').val('');
     })
 };
 
